@@ -1,9 +1,9 @@
 import asyncio, click, uvicorn, csv
 from pathlib import Path
-from scrapper.parser_rostender import scrape_tenders
-from scrapper.api import get_app
-from scrapper.api import get_tenders
-from scrapper.definitions import SAVE_DIR
+from scraper.parser_rostender import scrape_tenders
+from scraper.api import get_app
+from scraper.api import get_tenders
+from scraper.definitions import SAVE_DIR
 
 def save_to_csv(tenders: list[dict[str, str]], filename: str):
     keys = ["number", "name", "price", "location", "end_date", "url"]

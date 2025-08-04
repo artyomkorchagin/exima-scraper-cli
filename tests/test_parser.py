@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import httpx
 import respx
 
-from scrapper.parser_rostender import (
+from scraper.parser_rostender import (
     get_tender_price,
     get_tender_info,
     get_tender_urls_from_page,

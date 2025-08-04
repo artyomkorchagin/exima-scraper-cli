@@ -18,14 +18,14 @@
 
 ```bash
 git clone https://github.com/artyomkorchagin/exima-scrapper-cli.git
-cd exima-scrapper-cli
+cd exima-scraper-cli
 pip install -e .
 ```
 
 ## Использование
 
 ```bash
-cd scrapper
+cd scraper
 python main.py --max 10 --output tenders.csv
 ```
 
