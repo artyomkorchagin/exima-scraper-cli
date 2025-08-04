@@ -4,6 +4,16 @@
 
 ---
 
+## Зависимости
+- httpx
+- beautifulsoup4
+- lxml
+- fastapi
+- uvicorn
+- click
+- pytest
+- respx 
+
 ## Установка
 
 ```bash
