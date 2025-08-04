@@ -17,7 +17,7 @@
 ## Установка
 
 ```bash
-git clone https://github.com/artyomkorchagin/exima-scrapper-cli.git
+git clone https://github.com/artyomkorchagin/exima-scraper-cli.git
 cd exima-scraper-cli
 pip install -e .
 ```
