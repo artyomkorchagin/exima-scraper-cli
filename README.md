@@ -26,3 +26,11 @@ python main.py --max 10 --output tenders.csv
 ```bash
 pytest tests/ -v
 ```
+
+## FastAPI
+
+| Метод | Путь | Описание |
+|-------|------|----------|
+| `GET` | `/` | Перенаправляет на /status |
+| `GET` | `/status` | Проверка работоспособности API |
+| `GET` | `/tenders` | Возвращает запарсенные данные |
